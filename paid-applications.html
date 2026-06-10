@@ -44,7 +44,8 @@
         .paid-hero h1 { margin: 0; font-family: "Playfair Display", serif; font-size: clamp(54px, 9vw, 128px); line-height: 0.9; letter-spacing: 0; }
         .paid-intro { font-size: 22px; line-height: 1.45; color: var(--ink); }
         .paid-note { margin-top: 28px; padding-top: 24px; border-top: 2px solid var(--line); color: var(--muted); font-size: 16px; line-height: 1.6; }
-        .paid-price { display: inline-block; margin-top: 26px; padding: 16px 20px; border: 2px solid var(--ink); background: #fff; font-size: 24px; font-weight: 800; box-shadow: 6px 6px 0 var(--ink); }
+        .paid-price { display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: 12px; margin-top: 26px; padding: 16px 20px; border: 2px solid var(--ink); background: #fff; font-size: 24px; font-weight: 800; box-shadow: 6px 6px 0 var(--ink); }
+        .paid-price-old { color: var(--muted); font-size: 18px; text-decoration: line-through; }
         .paid-strip { border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); background: var(--cream); }
         .paid-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; }
         .paid-step { min-height: 180px; padding: 28px; border-right: 2px solid var(--line); }
@@ -122,7 +123,7 @@
                     </div>
                     <div>
                         <p class="paid-intro">Lifetime access to a focused community of 2,000+ D2C founders, agencies, freelancers, software vendors, operators, and builders.</p>
-                        <div class="paid-price">Rs. 1,500 lifetime membership</div>
+                        <div class="paid-price"><span class="paid-price-old">Rs. 3999</span><span>Rs. 1500 lifetime membership</span></div>
                         <p class="paid-note">Members get priority access to community deals, software vendor offers, and high-signal conversations inside our WhatsApp groups.</p>
                     </div>
                 </div>
@@ -158,7 +159,7 @@
                         <div class="sticky paid-form-copy">
                             <div class="paid-status"><span class="paid-status-dot"></span><span>New member intake</span></div>
                             <h3 class="mb-40">Lifetime membership <span class="italic">application</span></h3>
-                            <p><strong>Membership fee:</strong> Rs. 1,500 for lifetime access to the DTC Developers WhatsApp community.</p>
+                            <p><strong>Membership fee:</strong> Rs. 1500 for lifetime access to the DTC Developers WhatsApp community.</p>
                             <p><strong>Who should apply:</strong> D2C founders, agencies, freelancers, software vendors, operators, and builders who can add value to the group.</p>
                             <p><strong>What happens next:</strong> submit the form, complete payment on personal UPI, then message us on WhatsApp once done.</p>
                         </div>
@@ -191,7 +192,7 @@
 
                             <div id="thank-you" style="display:none;">
                                 <h3>Application received</h3>
-                                <p>Thanks for applying to DTC Developers. Complete the Rs. 1,500 lifetime membership payment on UPI and message us on WhatsApp once done.</p>
+                                <p>Thanks for applying to DTC Developers. Complete the Rs. 1500 lifetime membership payment on UPI and message us on WhatsApp once done.</p>
                             </div>
                         </div>
                         <div class="paid-payment-card">
@@ -202,7 +203,7 @@
                             </div>
                             <span class="paid-upi-id">UPI ID: vijaycttf@okicici</span>
                             <div class="paid-payment-note">Payment is not a guarantee of intake. Our groups are already close to capacity, so every application is reviewed. If you are not admitted, we will refund the full amount within 24 hours.</div>
-                            <a class="paid-whatsapp-button" href="https://wa.me/918619147622?text=Hi%20Vijay%2C%20I%20have%20completed%20my%20Rs.%201%2C500%20DTC%20Developers%20lifetime%20membership%20payment.%20Here%20are%20my%20details%3A" target="_blank" rel="noopener">Message on WhatsApp once done</a>
+                            <a class="paid-whatsapp-button" href="https://wa.me/918619147622?text=Hi%20Vijay%2C%20I%20have%20completed%20my%20Rs.%201500%20DTC%20Developers%20lifetime%20membership%20payment.%20Here%20are%20my%20details%3A" target="_blank" rel="noopener">Message on WhatsApp once done</a>
                         </div>
                         <div class="error w-form-fail">
                             <div>Oops! Something went wrong while submitting the form.</div>
@@ -228,7 +229,7 @@
                             </details>
                             <details>
                                 <summary>How much does it cost?</summary>
-                                <p>Membership is Rs. 1,500 for lifetime access. Payment is collected on Vijay's personal UPI.</p>
+                                <p>Membership is Rs. 1500 for lifetime access. Payment is collected on Vijay's personal UPI.</p>
                             </details>
                             <details>
                                 <summary>How does payment work?</summary>
